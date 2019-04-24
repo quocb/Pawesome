@@ -1,3 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/0a27670d815ee8a5831cf4239c2be418?family=FuntypeW01-Regular);
+
+@font-face {font-family: "FuntypeW01-Regular";
+  src: url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.eot");
+  src: url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/0a27670d815ee8a5831cf4239c2be418.svg#FuntypeW01-Regular") format("svg");
+}
+
 html, body, #root, .carousel {
 	height:100%;
 	margin: 0;
@@ -5,7 +16,7 @@ html, body, #root, .carousel {
 }
 
 h1 {
-  font-family: Courier;
+  font-family: FuntypeW01-Regular;
   font-size: 40px;
   text-shadow: 0 2px 0 rgba(0,0,0,.5);
   font-weight: 500;
