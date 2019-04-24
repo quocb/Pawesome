@@ -1,0 +1,28 @@
+#posts-container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.post {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border: 1px solid #f5f5f5;
+}
+
+.post:hover {
+  border: 1px solid rgb(1,1,1, .2);
+}
+
+.post-image {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.post-details {
+  margin: 10px;
+}
