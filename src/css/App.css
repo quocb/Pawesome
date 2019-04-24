@@ -28,10 +28,27 @@ html, body, #root, .carousel {
   border-radius: .28571429rem;
 }
 
+.ui.secondary.menu .active.item:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: rgba(94, 145, 242, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+  border-radius: .28571429rem;
+}
+
 .ui.secondary.menu a.item:hover{
   -webkit-box-shadow: none;
   box-shadow: none;
   background: rgba(94, 145, 242, 0.95);
   color: rgba(255, 255, 255, 0.95);
   border-radius: .28571429rem;
+}
+
+.ui.secondary.menu {
+  padding: 0px 10px 0 0;
+  margin: 0;
+}
+
+.carousel {
+  text-align: center;
 }

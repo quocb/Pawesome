@@ -5,7 +5,7 @@ import { Menu, MenuItemProps } from 'semantic-ui-react'
 const Header: FunctionComponent<{ setLogin: (bool:boolean) => any, setImage: (num:number) => any, loggedIn: boolean }> = ({setLogin, setImage, loggedIn}) => {
 
   const handleItemClick = (e:React.SyntheticEvent, props:MenuItemProps) => {
-    setActive(props.name);
+    setActive((props.name) ? props.name : '');
     setImage(parseInt(props.id));
   };
 
@@ -13,7 +13,7 @@ const Header: FunctionComponent<{ setLogin: (bool:boolean) => any, setImage: (nu
     setLogin(false);
   };
 
-  const [activeItem, setActive ] = useState();
+  const [activeItem, setActive ] = useState('volunteers');
 
   return (
   <>

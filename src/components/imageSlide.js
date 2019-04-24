@@ -16,7 +16,7 @@ const ImageSlide = ({ url, currentImage, setLogin }) => {
   const { value:email, bind:bindEmail, reset:resetEmail } = useInput('');
   const { value:password, bind:bindPassword, reset:resetPassword } = useInput('');
 
-  const loginFormProps = { email, bindEmail, resetEmail, password, bindPassword, resetPassword, setLogin }
+  const loginFormProps = { email, bindEmail, resetEmail, password, bindPassword, resetPassword, setLogin };
 
 
   const showForm = [];

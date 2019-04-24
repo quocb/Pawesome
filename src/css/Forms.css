@@ -57,3 +57,14 @@ h1 {
 .error-msg {
   color: red;
 }
+
+.ui.button {
+  background: rgba(94, 145, 242, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.ui.button:hover {
+  background: rgba(21, 100, 191, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+}
+

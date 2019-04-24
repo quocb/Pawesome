@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './../css/Posts.css';
+import './../css/Shelter.css';
 import Post from './Post';
 
-const Feed = () => {
+const ShelterHome = () => {
 
   const [feed, setFeed] = useState([]);
 
@@ -17,13 +17,14 @@ const Feed = () => {
 
 
 
-  return (
+  return (<>
+    <CreatePost />
     <div id='posts-container'>
       {feed.map(item => (
         <Post key={item.id} {...item} />
       ))}
     </div>
-  );
+  </>);
 }
 
-export default Feed;
+export default ShelterHome;
