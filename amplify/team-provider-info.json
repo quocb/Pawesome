@@ -1,0 +1,36 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "pawesome2-20190423120141-authRole",
+            "UnauthRoleArn": "arn:aws:iam::331179523229:role/pawesome2-20190423120141-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::331179523229:role/pawesome2-20190423120141-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "pawesome2-20190423120141-deployment",
+            "UnauthRoleName": "pawesome2-20190423120141-unauthRole",
+            "StackName": "pawesome2-20190423120141",
+            "StackId": "arn:aws:cloudformation:us-east-1:331179523229:stack/pawesome2-20190423120141/3b0fc770-65fa-11e9-afa7-0e33f445a498"
+        },
+        "categories": {
+            "auth": {
+                "cognito56288008": {}
+            }
+        }
+    },
+    "pawesome": {
+        "awscloudformation": {
+            "AuthRoleName": "pawesome2-20190424134000-authRole",
+            "UnauthRoleArn": "arn:aws:iam::331179523229:role/pawesome2-20190424134000-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::331179523229:role/pawesome2-20190424134000-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "pawesome2-20190424134000-deployment",
+            "UnauthRoleName": "pawesome2-20190424134000-unauthRole",
+            "StackName": "pawesome2-20190424134000",
+            "StackId": "arn:aws:cloudformation:us-east-1:331179523229:stack/pawesome2-20190424134000/217207b0-66d1-11e9-879f-12713880e578"
+        },
+        "categories": {
+            "auth": {
+                "cognito56288008": {}
+            }
+        }
+    }
+}
