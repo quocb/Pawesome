@@ -8,14 +8,11 @@ const Feed = () => {
   const [feed, setFeed] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
+    (async () => {
       const result = await axios('https://mk5ta87g8l.execute-api.us-west-2.amazonaws.com/posts');
       setFeed(result.data);
-    };
-    fetchData();
+    })();
   }, []);
-
-
 
   return (
     <div id='posts-container'>
